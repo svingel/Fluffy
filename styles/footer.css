@@ -1,0 +1,125 @@
+/*Decided to work with fallback fonts as similar as possible to Avenir Next yet available for free
+My fallback font source was the article https://www.dafontfree.io/avenir-next-font/*/
+/*Original font Avenir Next is available for purchase at https://www.fonts.com/font/linotype/avenir-next*/
+
+@font-face {
+    font-family: Metropolis-Regular;
+    src: url(../fonts/Metropolis/Metropolis-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Metropolis-Medium;
+    src: url(../fonts/Metropolis/Metropolis-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Metropolis-Light;
+    src: url(../fonts/Metropolis/Metropolis-Light.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Metropolis-Thin;
+    src: url(../fonts/Metropolis/Metropolis-Thin.otf);
+    font-weight: 100;
+}
+
+
+.footer {
+    width: 1440px;
+    height: 817px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #11364E;
+}
+
+.footer__contact-form {
+    width: 370px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.footer__fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 490px;
+    border: none;
+}
+
+.footer__field {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px rgba(255,255,255,0.2);
+    padding-bottom: 5px;
+}
+
+.footer__field:hover {
+    border-bottom: 1px solid white;
+}
+
+.footer__field--transparent:focus {
+    background-color: rgba(255, 127, 87, 0.8);
+    color: rgba(255,255,255,1);
+    font-size: 20px;
+}
+
+.footer__label {
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.footer__title {
+    font-family: Avenir Next-Regular, Metropolis-Light, sans-serif;
+    font-size: 38px;
+    letter-spacing: -0.5px;
+}
+
+.footer__subtitle {
+    width: 370px;
+    font-family: Avenir Next-Medium, Metropolis-Thin, sans-serif;
+
+    line-height: 18px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.footer__field-textarea {
+    width: 371px;
+    height: 87px;
+}
+
+.footer__field--transparent {
+    background-color: transparent;
+    border: none;
+    resize: none;
+}
+
+.footer__field--transparent::placeholder {
+    color: rgba(255,255,255,0.2);
+}
+
+.footer__copyright {
+    display: flex;
+    width: 1440px;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(19,37,58,1);
+    font-family: Avenir Next-Regular, Metropolis-Thin, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.8);
+}

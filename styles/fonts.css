@@ -1,0 +1,29 @@
+/*Decided to work with fallback fonts as similar as possible to Avenir Next yet available for free
+My fallback font source was the article https://www.dafontfree.io/avenir-next-font/*/
+/*Original font Avenir Next is available for purchase at https://www.fonts.com/font/linotype/avenir-next*/
+
+@font-face {
+    font-family: Metropolis-Regular;
+    src: url(../fonts/Metropolis/Metropolis-Regular.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Metropolis-Medium;
+    src: url(../fonts/Metropolis/Metropolis-Medium.otf);
+}
+
+@font-face {
+    font-family: Metropolis-DemiBold;
+    src: url(../fonts/Metropolis/Metropolis-SemiBold.otf);
+}
+
+@font-face {
+    font-family: Metropolis-Bold;
+    src: url(../fonts/Metropolis/Metropolis-Bold.otf);
+}
+
+@font-face {
+    font-family: Metropolis-RegularItalic;
+    src: url(../fonts/Metropolis/Metropolis-RegularItalic.otf);
+}

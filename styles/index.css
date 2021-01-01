@@ -1,0 +1,12 @@
+@font-face {
+    font-family: NotoSans-regular;
+    src: url(/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+.landingPage {
+    margin: 0 auto;
+    width: 1440px;
+    height: 4042px;
+    background-color: white;
+}
+

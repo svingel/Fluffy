@@ -1,0 +1,118 @@
+/*Decided to work with fallback fonts as similar as possible to Avenir Next yet available for free
+My fallback font source was the article https://www.dafontfree.io/avenir-next-font/*/
+/*Original font Avenir Next is available for purchase at https://www.fonts.com/font/linotype/avenir-next*/
+
+@font-face {
+    font-family: Metropolis-Regular;
+    src: url(../fonts/Metropolis/Metropolis-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Metropolis-Medium;
+    src: url(../fonts/Metropolis/Metropolis-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Metropolis-ExtraBold;
+    src: url(../fonts/Metropolis/Metropolis-ExtraBold.otf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Metropolis-RegularItalic;
+    src: url(../fonts/Metropolis/Metropolis-RegularItalic.otf);
+    font-weight: 400;
+}
+
+.aboutUs {
+    width: 970px;
+    height: 500px;
+    padding: 99px 235px 100px 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.aboutUs__subtitle {
+    margin: 0px, 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    line-height: 22px;
+    font-family: Avenir Next, Metropolis-Medium, sans-serif;
+    font-size: 16px;
+    color: #2557AB;
+    text-align: center;
+}
+
+.aboutUs__title {
+    margin: 0px, 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    line-height: 52px;
+    font-family: Avenir Next, Metropolis-ExtraBold, sans-serif;
+    font-size: 38px;
+    color: #13253A;
+    text-align: center;
+}
+
+.aboutUs__content {
+    margin: 0px, 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    width: 970px;
+    height: 360px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.aboutUs__description {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-family: Avenir Next, Metropolis-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.3px;
+    color: rgba(19,37,58,0.9);
+}
+
+.aboutUs__description--large {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    width: 570px;
+    height: 270px;
+}
+
+.aboutUs__description--medium {
+    width: 370px;
+    height: 135px;
+}
+
+.aboutUs__description--small {
+    width: 370px;
+    height: 60px;
+}
+
+.aboutUs__description--lead {
+    font-family: Avenir Next, Metropolis-RegularItalic, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    padding-bottom: 20px;
+}
+
+.aboutUs__logos {
+    width: 970px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
