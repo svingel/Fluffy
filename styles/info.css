@@ -1,0 +1,98 @@
+/*Decided to work with fallback fonts as similar as possible to Avenir Next yet available for free
+My fallback font source was the article https://www.dafontfree.io/avenir-next-font/*/
+/*Original font Avenir Next is available for purchase at https://www.fonts.com/font/linotype/avenir-next*/
+
+@font-face {
+    font-family: Metropolis-Regular;
+    src: url(../fonts/Metropolis/Metropolis-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Metropolis-Medium;
+    src: url(../fonts/Metropolis/Metropolis-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Metropolis-Bold;
+    src: url(../fonts/Metropolis/Metropolis-Bold.otf);
+    font-weight: 700;
+}
+
+.infoSection {
+    box-sizing: content-box;
+    width: 1170px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 135px 0px 135px;
+
+}
+
+.infoSection__description {
+    width: 470px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.infoSection__description--title {
+    margin: 0px, 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    width: 370px;
+    font-family: Avenir Next, Metropolis-Bold, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 52px;
+    color: rgba(19,37,58,1);
+}
+
+.infoSection__description--plain {
+    margin: 0px, 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    width: 470px;
+    font-family: Avenir Next, Metropolis-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(19,37,58,0.9);
+    letter-spacing: -0.5px;
+}
+
+.infoSection__list {
+    margin: 0px, 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+    width: 470px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.infoSection__list-item {
+    margin: 0px, 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    width: 439px;
+    font-family: Avenir Next, Metropolis-Medium, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    list-style-type: none;
+}
+
+.infoSection__img {
+    width: 600px;
+    height: 450px;
+}
