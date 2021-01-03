@@ -25,14 +25,20 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
     font-size: 17px;
     border-style: none;
     border-radius: 3px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
 }
 
 .button--primary-coral {
-    color: white;
     background-color: #FF7F57;
     font-family: Avenir Next, Metropolis-Regular, sans-serif;
-    font-size: 17px;
-    font-weight: 600;
+}
+
+.button--primary-cerulean {
+    background-color: #2557AB;
+    font-family: Avenir Next, Metropolis-Regular, sans-serif;
 }
 
 .button--wide {
