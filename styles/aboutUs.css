@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*Decided to work with fallback fonts as similar as possible to Avenir Next yet available for free
 My fallback font source was the article https://www.dafontfree.io/avenir-next-font/*/
 /*Original font Avenir Next is available for purchase at https://www.fonts.com/font/linotype/avenir-next*/
@@ -31,6 +38,10 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
     height: 500px;
     padding: 99px 235px 100px 235px;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +49,9 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 }
 
 .aboutUs__subtitle {
-    margin: 0px, 0px;
+    margin: 0px 0px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
     margin-block-start: 0px;
     margin-block-end: 0px;
     line-height: 22px;
@@ -49,7 +62,9 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 }
 
 .aboutUs__title {
-    margin: 0px, 0px;
+    margin: 0px 0px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
     margin-block-start: 0px;
     margin-block-end: 0px;
     line-height: 52px;
@@ -60,19 +75,26 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 }
 
 .aboutUs__content {
-    margin: 0px, 0px;
+    margin: 0px 0px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
     margin-block-start: 0px;
     margin-block-end: 0px;
     width: 970px;
     height: 360px;
     padding-top: 30px;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-align: start;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
 .aboutUs__description {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
     margin-block-start: 0px;
     margin-block-end: 0px;
     font-family: Avenir Next, Metropolis-Regular, sans-serif;
@@ -84,6 +106,9 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 
 .aboutUs__description--large {
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 30px;
@@ -113,6 +138,9 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
     width: 970px;
     height: 66px;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
     flex-direction: row;
     justify-content: space-between;
 }

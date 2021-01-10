@@ -1,6 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*Decided to work with fallback fonts as similar as possible to Avenir Next yet available for free
+My fallback font source was the article https://www.dafontfree.io/avenir-next-font/*/
+/*Original font Avenir Next is available for purchase at https://www.fonts.com/font/linotype/avenir-next*/
+
 @font-face {
-    font-family: NotoSans-regular;
-    src: url(/Noto_Sans/NotoSans-Regular.ttf);
+    font-family: "Avenir Next-Regular", Metropolis-Thin, sans-serif;
+    src: url(.fonts/Metropolis-Regular);
 }
 
 .landingPage {

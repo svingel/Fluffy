@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*Decided to work with fallback fonts as similar as possible to Avenir Next yet available for free
 My fallback font source was the article https://www.dafontfree.io/avenir-next-font/*/
 /*Original font Avenir Next is available for purchase at https://www.fonts.com/font/linotype/avenir-next*/
@@ -18,9 +25,10 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
     padding: 0px;
     width: 336px;
     height: 60px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 19px, 42px, 18px 42px;
-    font-family: Avenir Next-Regular, Metropolis-DemiBold, sans-serif;
+    font-family: "Avenir Next-Regular", Metropolis-DemiBold, sans-serif;
     font-weight: 600;
     font-size: 17px;
     border-style: none;
@@ -33,12 +41,12 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 
 .button--primary-coral {
     background-color: #FF7F57;
-    font-family: Avenir Next, Metropolis-Regular, sans-serif;
+    font-family: "Avenir Next", Metropolis-Regular, sans-serif;
 }
 
 .button--primary-cerulean {
     background-color: #2557AB;
-    font-family: Avenir Next, Metropolis-Regular, sans-serif;
+    font-family: "Avenir Next", Metropolis-Regular, sans-serif;
 }
 
 .button--wide {

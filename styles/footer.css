@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*Decided to work with fallback fonts as similar as possible to Avenir Next yet available for free
 My fallback font source was the article https://www.dafontfree.io/avenir-next-font/*/
 /*Original font Avenir Next is available for purchase at https://www.fonts.com/font/linotype/avenir-next*/
@@ -29,7 +36,12 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 .footer {
     width: 1440px;
     height: 817px;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +51,12 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 .footer__contact-form {
     width: 370px;
     height: 490px;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -48,7 +65,11 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 }
 
 .footer__fieldset {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +79,10 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 }
 
 .footer__field {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
     border-bottom: solid 1px rgba(255,255,255,0.2);
     padding-bottom: 5px;
@@ -80,14 +104,14 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 }
 
 .footer__title {
-    font-family: Avenir Next-Regular, Metropolis-Light, sans-serif;
+    font-family: "Avenir Next-Regular", Metropolis-Light, sans-serif;
     font-size: 38px;
     letter-spacing: -0.5px;
 }
 
 .footer__subtitle {
     width: 370px;
-    font-family: Avenir Next-Medium, Metropolis-Thin, sans-serif;
+    font-family: "Avenir Next-Medium", Metropolis-Thin, sans-serif;
 
     line-height: 18px;
     padding-bottom: 10px;
@@ -111,13 +135,16 @@ My fallback font source was the article https://www.dafontfree.io/avenir-next-fo
 }
 
 .footer__copyright {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
     width: 1440px;
     height: 47px;
     justify-content: center;
     align-items: center;
     background-color: rgba(19,37,58,1);
-    font-family: Avenir Next-Regular, Metropolis-Thin, sans-serif;
+    font-family: "Avenir Next-Regular", Metropolis-Thin, sans-serif;
     font-size: 12px;
     letter-spacing: 1px;
     color: rgba(255,255,255,0.8);
